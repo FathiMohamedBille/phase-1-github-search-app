@@ -3,6 +3,18 @@
   flex-direction: column;
   align-items: center;
 }
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+#cont {
+  height: 100%;
+  overflow: auto;
+  margin: 50px;
+  padding: 18px;
+}
 
 #github-container {
   display: flex;
@@ -10,4 +22,32 @@
 
 ul {
   list-style: none;
+}
+li {
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#right {
+  height: 100%;
+  overflow: auto;
+  margin: 50px;
+  padding: 18px;
+}
+
+#github-container button {
+  margin: 5px auto;
+}
+
+#github-container button:hover {
+  background: #333;
+  color: aliceblue;
 }
